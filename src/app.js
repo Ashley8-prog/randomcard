@@ -15,7 +15,7 @@ let body = document.querySelector("body");
 //Creamos un nuevo div
 let nuevoDiv = document.createElement("DIV");
 let app = document.querySelector("#app");
-nuevoDiv.classList.add("container-fluid", "bg", "bg-light");
+nuevoDiv.classList.add("bg", "bg-light", "rounded", "mt-2");
 nuevoDiv.innerHTML = `<div class="row symbol heading" >Fila 1</div><div class= "row number">Fila 2</div><div class="row reverse">Fila3</div>`;
 app.appendChild(nuevoDiv);
 app.classList.add("justify-content-center");
